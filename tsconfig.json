@@ -19,6 +19,12 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
+      "@/db": [
+        "./db/index.ts"
+      ],
+      "@/db/*": [
+        "./db/*"
+      ],
       "@/*": [
         "./src/*"
       ]
